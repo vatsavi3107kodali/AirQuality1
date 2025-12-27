@@ -1,6 +1,18 @@
-streamlit==1.30.0
-pandas==2.1.1
-matplotlib==3.9.1
-joblib==1.3.2
-numpy==1.27.0
-scikit-learn==1.3.2   # if your model was trained using scikit-learn
+# Streamlit and UI
+streamlit==1.28.0
+rich==14.2.0
+
+# Data manipulation
+pandas==2.1.2
+numpy==1.26.5
+
+# Machine Learning / Modeling (if used)
+scikit-learn==1.3.2
+
+# Plotting / Visualization
+matplotlib==3.8.1
+seaborn==0.12.2
+
+# Optional: for CSV / Excel handling
+openpyxl==3.1.2
+xlrd==2.0.1
